@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Manasa PC - Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf0f6;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+
+        /* HEADER */
+
+        .header {
+            background-color: #174e5d;
+            color: white;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .header h3 {
+            margin-top: 8px;
+            color: #b9d7f5;
+            font-weight: normal;
+        }
+
+        .contact {
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+
+        .contact a {
+            color: #b9c1f5;
+            text-decoration: none;
+        }
+
+        /* CONTENT */
+
+        .content {
+            padding: 30px 40px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            color: #17365d;
+            border-bottom: 3px solid #4a90c2;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+        }
+
+        .section h3 {
+            color: #24527a;
+            margin-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        li::marker {
+            color: #4a90c2;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #dcecf8;
+            color: #17365d;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .project {
+            background-color: #f5f8fb;
+            padding: 15px 20px;
+            border-left: 5px solid #4a90c2;
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .footer {
+            background-color: #17365d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 650px) {
+
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <img src="manasa.jpeg"
+             alt="Manasa PC"
+             class="profile-photo">
+
+        <div>
+            <h1><i>MANASA PC</i></h1>
+
+            <h3>
+                BE Computer Science Engineering | 3rd Year
+            </h3>
+
+            <div class="contact">
+                📧 manasapc004@gmail.com<br>
+                📱 +91 8861066412<br>
+                📍 Bengaluru, Karnataka, India<br>
+
+                🔗
+                <a href="https://www.linkedin.com/in/Manasa Pc">
+                    LinkedIn
+                </a>
+                <br>
+
+                💻
+                <a href="https://github.com/manasa-pc13">
+                    GitHub
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="content">
+
+        <!-- OBJECTIVE -->
+
+        <div class="section">
+
+            <h2>CAREER OBJECTIVE</h2>
+
+            <p>
+                Motivated and enthusiastic third-year Computer Science
+                Engineering student with a strong interest in software
+                development, artificial intelligence, web technologies,
+                and database management. Seeking opportunities to apply
+                technical knowledge through real-world projects while
+                continuously learning and developing professional skills.
+            </p>
+
+        </div>
+
+
+        <!-- EDUCATION -->
+
+        <div class="section">
+
+            <h2>EDUCATION</h2>
+
+            <h3>Bachelor of Engineering - Computer Science Engineering</h3>
+
+            <p>
+                Bangalore Institute of Technology, Karnataka<br>
+                2024 - 2026 | CGPA: 9.25 / 10
+            </p>
+
+            <h3>12th Standard</h3>
+
+            <p>
+                Vision PU College, Karnataka<br>
+                Year: 2024 | Percentage: 92%
+            </p>
+
+            <h3>10th Standard</h3>
+
+            <p>
+                Jawahar Navodaya Vidyalaya, Karnataka<br>
+                Year: 2022 | Percentage: 88%
+            </p>
+
+        </div>
+
+
+        <!-- SKILLS -->
+
+        <div class="section">
+
+            <h2>TECHNICAL SKILLS</h2>
+
+            <div class="skills">
+
+                <span class="skill">Java</span>
+                <span class="skill">Python</span>
+                <span class="skill">C</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Flask</span>
+                <span class="skill">MongoDB</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">VS Code</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECTS -->
+
+        <div class="section">
+
+            <h2>PROJECTS</h2>
+
+
+            <div class="project">
+
+                <h3>
+                    AI-Powered Immersive Virtual Home Design
+                    and Simulation System
+                </h3>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    HTML, CSS, JavaScript, Node.js,
+                    PostgreSQL/Supabase, AI
+                </p>
+
+                <ul>
+
+                    <li>
+                        Developed an intelligent platform for designing
+                        and evaluating home layouts.
+                    </li>
+
+                    <li>
+                        Provides interactive 3D visualization of home
+                        layouts and spatial arrangements.
+                    </li>
+
+                    <li>
+                        Includes AI-based layout analysis for evaluating
+                        space utilization and room arrangement.
+                    </li>
+
+                    <li>
+                        Includes sunlight and natural lighting analysis.
+                    </li>
+
+                    <li>
+                        Includes accessibility analysis for comfortable
+                        movement and space utilization.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Speech Dictation Engine</h3>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    Python, Flask, Speech Recognition, NLP
+                </p>
+
+                <ul>
+
+                    <li>
+                        Developed a backend system for processing speech
+                        and converting it into useful text.
+                    </li>
+
+                    <li>
+                        Implemented filler-word removal and repetition
+                        removal.
+                    </li>
+
+                    <li>
+                        Added grammar correction, text formatting,
+                        and tone transformation modules.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- SOFT SKILLS -->
+
+        <div class="section">
+
+            <h2>SOFT SKILLS</h2>
+
+            <div class="skills">
+
+                <span class="skill">Problem Solving</span>
+                <span class="skill">Teamwork</span>
+                <span class="skill">Communication</span>
+                <span class="skill">Time Management</span>
+                <span class="skill">Adaptability</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- LANGUAGES -->
+
+        <div class="section">
+
+            <h2>LANGUAGES</h2>
+
+            <ul>
+
+                <li>English</li>
+                <li>Kannada</li>
+                <li>Hindi</li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- INTERESTS -->
+
+        <div class="section">
+
+            <h2>INTERESTS</h2>
+
+            <ul>
+
+                <li>Artificial Intelligence</li>
+                <li>Web Development</li>
+                <li>Software Development</li>
+                <li>Problem Solving</li>
+                <li>Learning New Technologies</li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
